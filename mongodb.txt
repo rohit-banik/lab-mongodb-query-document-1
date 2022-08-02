@@ -1,5 +1,5 @@
 For using the database
-    use('companiesDB')
+    >> use('companiesDB')
 
 1. All the companies whose name match 'Babelgum'. Retrieve only their name field.
     >> db.companies.find({name: 'Babelgum'}, {name:1})
